@@ -13,4 +13,4 @@ COPY --from=build /app/build/libs/*.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","app.jar"]
 
-# docker run --rm -p 8080:8080 --env-file=.env atangi/wonbank:2stage
+# docker run --rm -p 8080:8080 --env-file=.env jpyoooo/wonbank:2stage
